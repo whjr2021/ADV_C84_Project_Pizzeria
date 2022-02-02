@@ -1,4 +1,4 @@
-menu_list_array = ["Veg Margherita Pizza",
+menu_list_array = [ "Veg Margherita Pizza",
                     "Chicken Tandoori Pizza",
                     "Veg Supreme Pizza",
                     "Paneer Tikka Pizza",
@@ -14,7 +14,7 @@ function getmenu()
     document.getElementById("display_menu").innerHTML = htmldata;
 }
 
-function add_top(){
+function add_suggestion(){
 	var item=document.getElementById("add_item").value;
     menu_list_array.push(item);
 }
